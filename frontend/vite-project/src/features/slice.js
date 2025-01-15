@@ -107,7 +107,7 @@ const slice = createSlice({
         builder.addCase(updatetodo.fulfilled, (state, action)=>{
             state.isloading = false
             state.iserror = false
-            state.issuccess = true
+            state.issucess = true
             state.alltodos = state.alltodos.map((item)=>{
                 if (item._id === action.payload._id)
                 {
