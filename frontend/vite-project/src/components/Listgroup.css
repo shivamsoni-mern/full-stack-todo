@@ -1,0 +1,16 @@
+.list-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .hello{
+    text-align: center;
+  }
+  
+ 
+  

@@ -1,0 +1,46 @@
+.task-item {
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-content h3 {
+    color: #ff6f61;
+    margin: 0;
+  }
+  
+  .task-content p {
+    color: #666;
+  }
+  
+  .task-actions button {
+    padding: 0.5rem 1rem;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #ffa500;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #ff6347;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #ff8c00;
+  }
+  
+  .delete-btn:hover {
+    background-color: #e53d32;
+  }
+  

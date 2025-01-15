@@ -1,0 +1,32 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    padding: 1.5rem;
+  }
+
+  .form-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .task-item {
+    flex-direction: column;
+  }
+
+  .task-actions {
+    margin-top: 1rem;
+  }
+}
